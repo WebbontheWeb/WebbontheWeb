@@ -1,0 +1,15 @@
+body {
+    background-color: #7107a2;
+  }
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(240, 240, 240);
+}
+
+#title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}

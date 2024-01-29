@@ -10,7 +10,6 @@ body::before {
     content: "";
     position: fixed;
     top: 0;
-    left: 0;
     width: 100vw;
     height: 100vh;
     z-index: -1;
@@ -40,10 +39,15 @@ body::before {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 30vh;
+    top: 20vh;
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Lato', sans-serif;
     color: rgb(240, 240, 240);
+    font-size: 3rem;
+    letter-spacing: 1px;
+    font-weight: bolder;
+    text-align: center;
 }
